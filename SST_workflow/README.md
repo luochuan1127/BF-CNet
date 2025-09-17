@@ -33,13 +33,13 @@ The code provides a complete pipeline for preparing SST data, training the model
 
  		validation\_CMEMS\_SST.csv
 
- 	Outputs are stored in the input/ folder.
+ 	Outputs are stored in the input/ folder (If the input folder is not present, please create it manually).
 
 2\. Model Training
 
  	Run Model\_SST.ipynb.
 
- 	This notebook trains the model, saves the trained model to the model/ folder, and generates reconstruction results stored in the output/ folder.
+ 	This notebook trains the model, saves the trained model to the model/ folder , and generates reconstruction results stored in the output/ folder (If the output folder is not present, please create it manually).
 
 3\. Best Quantile Selection (SSIM-based)
 
@@ -110,5 +110,6 @@ input/ → Contains input datasets.
 model/ → Stores trained models.
 
 output/ → Stores reconstruction results and visualizations.
+
 
 
