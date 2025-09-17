@@ -1,6 +1,9 @@
 **Overview**
 
-
+Due to file size limitations, the three *.mat data files required for the SST_workflow folder have been uploaded to Google Drive.
+Please download them from the link below and place them into the SST_workflow directory before running the project step by step as described in README.md.
+Google Drive:
+https://drive.google.com/drive/folders/17IY4e7kf1v0a5ZPjYIJrl3AaxAsaTJ3L?usp=sharing
 
 This project demonstrates the end-to-end workflow for SST (Sea Surface Temperature) data, including dataset creation, model training, and evaluation. This version is organized as the simplest directly executable release, making it easy for reviewers and users to run without additional setup, including:
 
@@ -107,4 +110,5 @@ input/ → Contains input datasets.
 model/ → Stores trained models.
 
 output/ → Stores reconstruction results and visualizations.
+
 
